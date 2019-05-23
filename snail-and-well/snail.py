@@ -14,11 +14,9 @@ while position<125:
     # 60= 60+30
     position = position + D_advance 
 
-
-    #if <125:
-     #   print("je tombe",i+1*d-r, "sur",w)
-    #else: 
-    #    print("je suis arrivée en", i+1,"days")
+    if position <125:
+        position = position - N_retreat
+    
     print("Fin de journee ", total_days, " J'ai parcouru", position ,"sur le total ",Well_height)
 
 
