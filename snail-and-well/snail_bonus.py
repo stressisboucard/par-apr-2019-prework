@@ -15,5 +15,8 @@ while position<125:
 
     print("Fin de journee ", total_days, " J'ai parcouru", position ,"sur le total ",Well_height)
 
+ 
+
+
 
 print("J'ai terminé mon voyage journée ", total_days, " J'ai parcouru", position ,"sur le total ",Well_height)
